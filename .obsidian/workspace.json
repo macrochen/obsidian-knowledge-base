@@ -11,17 +11,14 @@
             "id": "f729ca64b0d0185c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "2026-04.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "2026-04"
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "小米",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 544.5
   },
   "right": {
     "id": "860ef0dc65f6b21e",
@@ -185,8 +182,18 @@
   },
   "active": "f729ca64b0d0185c",
   "lastOpenFiles": [
-    "2026-04-19.md",
+    "index.md",
+    "未命名.canvas",
     "2026-04.md",
+    "你花的每一分钱，到底在买什么？.md",
+    "2026-05.md",
+    "2026-07.md",
+    "2026-06.md",
+    "2026-04-29-小米跌了37%-值得投资吗.md",
+    "archives/wechat/2026-04-29-小米跌了37%-值得投资吗-03-cover-prompt.md",
+    "archives/wechat/2026-04-29-小米跌了37%-值得投资吗-cover.png",
+    "archives/wechat/2026-04-29-小米跌了37%-值得投资吗-00-original.md",
+    "2026-04-19.md",
     "2026-02.md",
     "用ADX指标做Iron Condor，到底靠不靠谱？.md",
     "放弃预测涨跌：用一根均线给期权装上自动驾驶仪.md",
@@ -207,7 +214,6 @@
     "assets/jike/2023-08/64c9d900aac630c848fbd6a7-02.png",
     "assets/jike/2023-08/64c9d900aac630c848fbd6a7-01.png",
     "assets/jike/2023-08",
-    "assets/jike/2024-11/6741456353ab99f7fd97b755-01.jpg",
     "assets/jike/2024-11",
     "assets/jike/2023-06",
     "assets/jike/2025-11",
@@ -222,15 +228,6 @@
     "2025-11.md",
     "2025-10.md",
     "2025-09.md",
-    "2025-08.md",
-    "2025-07.md",
-    "2025-06.md",
-    "2025-05.md",
-    "2025-04.md",
-    "2025-03.md",
-    "2025-02.md",
-    "2025-01.md",
-    "2024-12.md",
-    "未命名.canvas"
+    "2025-08.md"
   ]
 }
