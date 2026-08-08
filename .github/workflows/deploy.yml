@@ -40,6 +40,21 @@ jobs:
         run: |
           rsync -av --exclude='.git' --exclude='.github' --exclude='.obsidian' vault/ quartz/content/
       
+      - name: Configure Quartz
+        working-directory: quartz
+        run: |
+          # Rename the title
+          sed -i 's/pageTitle: "🪴 Quartz 4.0"/pageTitle: "Macrochen Knowledge Base"/g' quartz.config.ts
+          # Fix the base url for github pages
+          sed -i 's/baseUrl: "yoursite.com"/baseUrl: "macrochen.github.io\/obsidian-knowledge-base"/g' quartz.config.ts
+          # Setup locale to zh-CN for proper date parsing if necessary
+          sed -i 's/locale: "en-US"/locale: "zh-CN"/g' quartz.config.ts
+          
+          # Hide the messy tags in file lists via custom CSS
+          echo "" >> quartz/styles/custom.scss
+          echo "/* Hide tags on article lists */" >> quartz/styles/custom.scss
+          echo "ul.tags { display: none !important; }" >> quartz/styles/custom.scss
+      
       - name: Build Quartz
         working-directory: quartz
         run: |
